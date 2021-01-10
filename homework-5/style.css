@@ -146,3 +146,66 @@ html, body {
    text-indent: 0px;
    border: none;
 }
+
+
+
+.footer {
+   background: #FAFAFA;
+   margin-top: 45px;
+   padding: 85px;
+   font-size: 12px;
+}
+
+.nav_menu_bottom {
+   margin-bottom: 85px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.footer_nav {
+   flex: 20%;
+   margin: 30px;
+}
+
+.footer_title {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 22px;
+   margin-bottom: 30px;
+}
+
+.footer_text {
+   max-width: 145px;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+li:not(:last-child) {
+   margin-bottom: 5px;
+}
+
+.contacts {
+   margin-bottom: 20px;
+}
+
+.contact_email, .contact_phone {
+   margin-bottom: 5px;
+   line-height: 14px;
+}
+
+.social {
+   display: flex;
+   justify-content: space-between;
+   max-width: 50px;
+}
+
+.page_info {
+   margin-left: 25px;
+}
